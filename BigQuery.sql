@@ -1,9 +1,3 @@
-/*
-P0LC1
-Nama: Nabilah Putri Intaka
-Batch: RMT-003
-*/
-
 -- Nomor 1
 SELECT DATE(created_at) as tanggal, COUNT(*) as jumlah_transaksi
 FROM `bigquery-public-data.thelook_ecommerce.orders`
